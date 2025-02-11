@@ -1,0 +1,32 @@
+/botzilla
+├── /components
+│   ├── BotDashboard.js      // Main dashboard interface
+│   ├── CommandBuilder.js    // Command creation interface
+│   ├── EmbedBuilder.js      // UI for creating embeds
+│   ├── RoleManager.js       // Role management component
+│   ├── BotClone.js          // Bot clone functionality
+│   └── ServerSettings.js    // Server-specific settings
+├── /pages
+│   ├── index.js             // Main homepage
+│   ├── create-bot.js        // Bot creation wizard page
+│   ├── dashboard.js         // Bot dashboard page
+│   ├── settings.js          // Settings for managing bot permissions
+│   └── api.js               // API endpoint for bot actions
+├── /public
+│   ├── logo.png             // Botzilla logo
+│   ├── background.jpg       // Background images
+│   └── favicon.ico          // Website favicon
+├── /styles
+│   ├── global.css           // Global styles
+│   ├── theme.css            // Custom theme styles
+│   └── bot-dashboard.css    // Styles for the bot dashboard page
+├── /utils
+│   ├── api.js               // API functions for interacting with Discord API
+│   ├── token-generator.js   // Generate bot tokens securely
+│   ├── music.js             // Music bot functionality
+│   ├── economy.js           // Economy system functionality
+│   └── commandUtils.js      // Helper functions for command aliases and cooldowns
+├── .gitignore               // Gitignore file for unnecessary files
+├── README.md                // Project README
+├── next.config.js           // Next.js configuration for Vercel hosting
+└── package.json             // Project dependencies and scripts
